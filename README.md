@@ -1,32 +1,155 @@
-# ResumeGen
-ReactJS Basic Resume Generator which will generate customized Resume in few minutes on your requirements.
-Live resume editor.
+# ResumeGen 🚀
 
-[Visit Now](https://resumegenx.netlify.app/) 🚀
+A modern, interactive Resume Builder application built with React. Create professional, customized resumes in minutes with a live preview feature.
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Chakra UI](https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+## ✨ Features
+
+- **📝 Live Resume Editor** - Real-time preview as you type
+- **🎨 Customizable Themes** - Choose from multiple color schemes
+- **📸 Profile Picture Upload** - Add your professional photo
+- **📄 Multiple Sections** - Build comprehensive resumes with:
+  - Personal Information & Contact Details
+  - Education History
+  - Work Experience
+  - Skills & Technologies
+  - Projects Portfolio
+- **💾 PDF Export** - Download your resume as a PDF
+- **📱 Responsive Design** - Works seamlessly on desktop and mobile devices
+- **⚡ Fast & Lightweight** - Built with modern React best practices
 
 ## 🖥️ Tech Stack
 
-![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-![chakraui](https://img.shields.io/badge/Chakra--UI-319795?style=for-the-badge&logo=chakra-ui&logoColor=white)&nbsp;
+- **Frontend Framework:** React 17
+- **UI Library:** Chakra UI
+- **State Management:** React Context API
+- **PDF Generation:** react-to-print, html2canvas, jsPDF
+- **Icons:** React Icons
+- **Fonts:** Google Fonts (Pacifico, Poppins)
 
-Extras: React-To-Print
+## 🚀 Getting Started
 
-**Deployed On:**
+### Prerequisites
 
-![netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+- Node.js (v14 or higher)
+- npm or yarn package manager
 
-## Sneak  Peek of Home Page 🙈 :
-![screencapture-resumegenx-netlify-app-2022-01-18-16_24_49](https://user-images.githubusercontent.com/64949957/159115311-42275489-8fbe-4d80-9f7c-4d308d9287ce.png)
-![smartmockups_kyk0u3hp](https://user-images.githubusercontent.com/64949957/159115313-ae8bf72c-2a79-425d-8520-32b6ba3e0fcf.jpg)
+### Installation
 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/resumegen.git
+   cd resumegen
+   ```
 
-<h2>📬 Contact</h2>
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+   or
+   ```bash
+   yarn install
+   ```
 
-If you want to contact me, you can reach me through below handles.
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
+   or
+   ```bash
+   yarn start
+   ```
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sable)
+4. **Open your browser**
+   - The app will automatically open at `http://localhost:3000`
+   - If it doesn't, navigate to the URL manually
 
-© 2022 Jigar Sable
+## 📖 Usage
 
+1. **Fill in Your Information**
+   - Navigate through the tabs: About, Education, Skills, Work, Projects
+   - Enter your personal details, work experience, education, and projects
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+2. **Customize Your Resume**
+   - Select a theme color from the theme selector
+   - Upload your profile picture (optional)
+   - Watch the live preview update in real-time
+
+3. **Download Your Resume**
+   - Click the "Download" button to export your resume as a PDF
+   - Print directly from your browser if needed
+
+## 📁 Project Structure
+
+```
+resumegen/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── BuildSteps/      # Form components for each section
+│   │   │   ├── About.js
+│   │   │   ├── Education.js
+│   │   │   ├── Skills.js
+│   │   │   ├── Work.js
+│   │   │   └── Projects.js
+│   │   ├── Layouts/         # Header, Navbar, Footer
+│   │   ├── Theme/           # Theme selection components
+│   │   ├── Builder.js       # Main builder component
+│   │   ├── ResumePreview.js # Live preview component
+│   │   └── Main.js          # Main container
+│   ├── Context.js           # Global state management
+│   ├── App.js               # Root component
+│   └── index.js             # Entry point
+├── package.json
+└── README.md
+```
+
+## 🛠️ Available Scripts
+
+- `npm start` - Runs the app in development mode
+- `npm build` - Builds the app for production
+- `npm test` - Launches the test runner
+- `npm eject` - Ejects from Create React App (irreversible)
+
+## 🌐 Deployment
+
+This project can be easily deployed on:
+- **Netlify** (recommended for React apps)
+- **Vercel**
+- **GitHub Pages**
+- Any static hosting service
+
+### Deploy to Netlify
+
+1. Build the project: `npm run build`
+2. Drag and drop the `build` folder to Netlify
+3. Or connect your GitHub repository for automatic deployments
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Built with [Create React App](https://create-react-app.dev/)
+- UI components from [Chakra UI](https://chakra-ui.com/)
+- Icons from [React Icons](https://react-icons.github.io/react-icons/)
+
+---
+
+⭐ If you found this project helpful, please give it a star!
