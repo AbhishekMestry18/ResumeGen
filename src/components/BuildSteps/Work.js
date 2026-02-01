@@ -1,5 +1,5 @@
-import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Button, FormControl, FormLabel, HStack, Input, NumberDecrementStepper, NumberIncrementStepper, NumberInput, NumberInputField, NumberInputStepper, VStack, Textarea, Select, Text } from '@chakra-ui/react'
-import React, { useState } from 'react'
+import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, Box, Button, FormControl, FormLabel, HStack, Input, Textarea, Select, Text } from '@chakra-ui/react'
+import React from 'react'
 import { useResume } from '../../Context';
 import { v4 as uuidv4 } from 'uuid';
 import { MdDelete } from 'react-icons/md';

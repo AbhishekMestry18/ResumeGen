@@ -1,14 +1,12 @@
 import {
     Text,
     Button,
-    Image,
     Heading,
     Stack,
     Flex,
     Box,
     Container,
 } from '@chakra-ui/react';
-import hero from '../../images/hero.svg';
 
 const Header = () => {
 
