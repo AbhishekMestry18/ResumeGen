@@ -46,12 +46,11 @@ const Skills = () => {
                 {skills.length > 0 ? skills.map((skill, index) => (
                     <Tag
                         size={'lg'}
-                        key={index}
+                        key={skill.id}
                         borderRadius='full'
                         variant='solid'
                         colorScheme='green'
                         m={0.5}
-                        key={skill.id}
                     >
                         <TagLabel>{skill.name}</TagLabel>
                         <TagCloseButton onClick={() => deleteSkill(skill.id)} />
